@@ -1,0 +1,37 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    font-family: "Inter", sans-serif;
+
+    form {
+        border: 1px solid gray;
+        padding: 1em;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: 300px;
+
+        h1 {
+            margin: 5px 0px;
+        }
+
+        p {
+            margin: 0px 0px 10px 0px;
+        }
+
+        input {
+            margin: 10px 0px;
+        }
+
+        button {
+            width: 50%;
+            margin: auto auto 0px auto;
+        }
+
+    }
+
+}
